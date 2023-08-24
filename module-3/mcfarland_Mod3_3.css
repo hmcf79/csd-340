@@ -1,0 +1,58 @@
+.container{
+    column-count: 2;
+}
+
+.left{
+    width: 45%;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    border-radius: 15px;
+}
+
+.right{
+    width: 45%;
+    float: right;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: red;
+    border-radius: 15px;
+}
+
+
+
+.after{
+    margin: 100%;
+    margin-top: 60%;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    font-weight: 500;
+}
+
+ol{
+    font-weight: 300;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+ul{
+    font-weight: 300;
+    padding: 10px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.landing{
+    float:right;
+    margin-bottom: 20px;
+}
