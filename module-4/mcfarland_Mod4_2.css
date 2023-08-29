@@ -1,0 +1,58 @@
+/*Holly McFarland
+  CSD-340
+  Assignment 4.2
+  8/29/23
+*/
+
+#image-gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    margin-top: 10%;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.figure{
+    display: block;
+    text-align: center;
+}
+
+figure figcaption{
+    font-style: italic;
+    font-size: .75em;
+    text-align: center;
+}
+
+figure img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#image-1{
+    text-align: center;
+    border-style: solid;
+}
+
+#image-2{
+    text-align: center;
+    border-style: solid;
+}
+
+#image-3{
+    text-align: center;
+    border-style: solid;
+}
+
+.landing{
+    float:right;
+    margin-bottom: 20px;
+}
